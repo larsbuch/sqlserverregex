@@ -44,7 +44,7 @@ GO
 					,[PatternName]
 					,[CreateDate]
 					,[ModifiedDate]
-				FROM [XmlTest].[Regex].[View_ListRegexPatterns]
+				FROM [Regex].[View_ListRegexPatterns]
 				WHERE PatternName = @PatternName
 				)
 		BEGIN
